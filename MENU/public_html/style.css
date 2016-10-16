@@ -1,0 +1,126 @@
+body{
+  
+  left: 0;
+  margin: 0;
+z-index:-100;
+position:relative;
+background-image:url('http://tub.tubgit.com/images255/j1fvyogqx0e.jpg');
+ /*'http://www.basicknowledge101.com/photos/2015/space/Elephant-4214115.jpg'*/
+ -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+
+.back{
+	background-image:url('https://wallpaperscraft.com/image/heart_line_shape_light_background_bright_colorful_47604_3840x2400.jpg');
+opacity:0.2;
+	position:absolute;	
+	min-height:550px;
+	min-width:1265px;
+
+z-index:-50;
+background-position:center;
+background-repeat:repeat-y;
+-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+
+}
+.menusign{
+	position:absolute;
+	top:25px;
+	left:25px;
+	color:#FFFFFF;
+	font-size:20px;
+	cursor:pointer;
+	font-weight:400;	
+}
+.menudata{
+	border-right:1px solid #636366;
+	background-image:url('https://media.giphy.com/media/PzYUZGyzTlVpC/giphy.gif');
+	position:fixed;
+	width:300px;
+	left:-300px;
+	height:550px;
+	z-index:10;
+	
+}
+.menuinside{
+	
+position:relative;
+	padding-top:100px;
+	}
+
+	.menuinside ul{
+		border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding:0;
+	}	
+
+
+
+	.menuinside li{
+		margin-left:0px;
+		border-bottom:1px solid #636366;
+		padding-bottom:3px;
+		line-height:45px;
+		padding-top:3px;
+		text-transform:uppercase;
+	margin:0;
+	}
+	.menuinside li a{
+		padding-left:20px;
+	
+	text-decoration:none;
+	font-size:16px;
+	color:#FFFFFF;
+
+		margin:0;
+	}	
+		
+		
+		.lists{
+		background: rgba(0, 0, 0, 0.6);
+		display:none;
+			margin-right:0px;
+			cursor:pointer;
+			border:1px solid #FFFFFF;
+			position:absolute;
+		top:100px;
+		left:55px;
+		color:#FFFFFF;
+text-align:left;
+		}
+		
+		.item .date{
+  margin-right: 18px;
+  text-align:right;
+}
+		
+		.item p{
+		font-size:16px;
+		font-weight:600;
+		}
+		.current{
+			background:rgba(180, 172, 96, 0.3);
+		}
+		
+		.item{
+			padding:5px 0px 5px 0px ;
+		}
+		
+		
+		.description{
+display:none;
+	font-size:17px;
+		}
+		
+		
+		
+		
+		
